@@ -1,5 +1,5 @@
-# Sử dụng Node.js bản 18 alpine để nhẹ nhất
-FROM node:18-alpine AS base
+# Sử dụng Node.js bản 20 alpine để đáp ứng yêu cầu của Next.js mới
+FROM node:20-alpine AS base
 
 # Bước 1: Cài đặt dependencies
 FROM base AS deps
